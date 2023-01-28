@@ -16,12 +16,12 @@
 	"contributes": {
 		"commands": [
 			{
-				"command": "css-to-jsx.helloWorld",
-				"title": "Hello World"
+				"command": "css-to-jsx.convertToRNStyles",
+				"title": "CSS-TO-JSX: Convert to RN Styles"
 			},
 			{
-				"command": "css-to-jsx.convert",
-				"title": "Convert to JSX"
+				"command": "css-to-jsx.convertToJSS",
+				"title": "CSS-TO-JSX: Convert to JSX"
 			}
 		]
 	},
