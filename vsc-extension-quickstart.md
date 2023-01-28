@@ -7,4 +7,4 @@
 
 ## Demo
 
-![Demo](./demo.gif)
+![Demo](https://raw.githubusercontent.com/jobayer977/vscode-css-to-jsx/main/demo.gif)
