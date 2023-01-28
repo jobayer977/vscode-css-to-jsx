@@ -1,4 +1,6 @@
-# Welcome to CSS To JSX Converter
+# CSS To JSX Converter
+
+A VS Code extension to convert CSS to JSS and React Native.
 
 ## Features
 
@@ -8,3 +10,8 @@
 ## Demo
 
 ![Demo](https://raw.githubusercontent.com/jobayer977/vscode-css-to-jsx/main/demo.gif)
+
+<br/>
+<br/>
+
+[@Jobayer Hossain](https://github.com/jobayer977)
