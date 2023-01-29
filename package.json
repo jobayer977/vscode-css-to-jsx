@@ -1,27 +1,33 @@
 {
-	"name": "css-to-jsx",
-	"displayName": "css-to-jsx",
+	"name": "css-to-rn",
+	"displayName": "css-to-rn",
 	"description": "",
+	"icon": "images/icon.png",
 	"version": "0.0.1",
+	"publisher": "JobayerHossain",
 	"engines": {
 		"vscode": "^1.74.0"
+	},
+	"repository": {
+		"url": "https://github.com/jobayer977/vscode-css-to-rn",
+		"type": "git"
 	},
 	"categories": [
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:css-to-jsx.helloWorld"
+		"onCommand:css-to-rn.helloWorld"
 	],
 	"main": "./dist/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "css-to-jsx.convertToRNStyles",
-				"title": "CSS-TO-JSX: Convert to RN Styles"
+				"command": "css-to-rn.convertToRNStyles",
+				"title": "css-to-rn: Convert to RN Styles"
 			},
 			{
-				"command": "css-to-jsx.convertToJSS",
-				"title": "CSS-TO-JSX: Convert to JSX"
+				"command": "css-to-rn.convertToJSS",
+				"title": "css-to-rn: Convert to JSX"
 			}
 		]
 	},

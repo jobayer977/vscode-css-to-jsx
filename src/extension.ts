@@ -1,22 +1,17 @@
 import * as postcssJs from 'postcss-js';
-// The module 'vscode' contains the VS Code extensibility API
-// Import the module and reference it with the alias vscode in your code below
 import * as vscode from 'vscode';
 
 import postcss from 'postcss';
 import transform from 'css-to-react-native';
 
-// this method is called when your extension is activated
-// your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
 	let disposable = vscode.commands.registerCommand(
-		'css-to-jsx.convertToRNStyles',
+		'css-to-rn.convertToRNStyles',
 		() => {
 			let editor = vscode.window.activeTextEditor;
 			if (!editor) {
-				return; // No open text editor
+				return;
 			}
-			// Get the selected text
 			let selection = editor.selection;
 			let text: any = editor.document.getText(selection);
 			try {
@@ -36,15 +31,13 @@ export function activate(context: vscode.ExtensionContext) {
 			}
 		}
 	);
-	// convert to convertToJSS
 	let disposable2 = vscode.commands.registerCommand(
-		'css-to-jsx.convertToJSS',
+		'css-to-rn.convertToJSS',
 		() => {
 			let editor = vscode.window.activeTextEditor;
 			if (!editor) {
-				return; // No open text editor
+				return;
 			}
-			// Get the selected text
 			let selection = editor.selection;
 			let text: any = editor.document.getText(selection);
 			try {
@@ -60,5 +53,4 @@ export function activate(context: vscode.ExtensionContext) {
 	context.subscriptions.push(disposable);
 	context.subscriptions.push(disposable2);
 }
-// this method is called when your extension is deactivated
 export function deactivate() {}

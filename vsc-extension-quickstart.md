@@ -9,7 +9,7 @@ A VS Code extension to convert CSS to JSS and React Native.
 
 ## Demo
 
-![Demo](https://raw.githubusercontent.com/jobayer977/vscode-css-to-jsx/main/demo.gif)
+![Demo](https://raw.githubusercontent.com/jobayer977/vscode-css-to-rn/main/demo.gif)
 
 <br/>
 <br/>
